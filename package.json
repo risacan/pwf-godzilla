@@ -1,0 +1,38 @@
+{
+  "name": "hellotest",
+  "author": "MakeAwesomeHappen",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "hellotest",
+    "uuid": "474454fc-2bcc-4404-86f0-b8e3e7005aae",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "basalt",
+      "chalk"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "messageKeys": [
+      "dummy"
+    ],
+    "resources": {
+      "media": [
+        {
+          "type": "bitmap",
+          "name": "IMAGE_BACKGROUND",
+          "file": "GODZILLA_BACKGROUND.png"
+        },
+        {
+          "type": "font",
+          "name": "FONT_JANYK_30",
+          "file": "Janyk.ttf"
+        }
+      ]
+    }
+  }
+}
