@@ -1,12 +1,12 @@
 {
-  "name": "hellotest",
-  "author": "MakeAwesomeHappen",
+  "name": "The New Godzilla",
+  "author": "risacan",
   "version": "1.0.0",
   "keywords": ["pebble-app"],
   "private": true,
   "dependencies": {},
   "pebble": {
-    "displayName": "hellotest",
+    "displayName": "New Godzilla",
     "uuid": "474454fc-2bcc-4404-86f0-b8e3e7005aae",
     "sdkVersion": "3",
     "enableMultiJS": true,
